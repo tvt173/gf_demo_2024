@@ -1,0 +1,12 @@
+name: gfdemo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - gdstk
+  - jupyterlab
+  - pip
+  - pip:
+    - gdsfactory==7.25.1
+    - nbstripout
