@@ -10,3 +10,5 @@ dependencies:
   - pip:
     - gdsfactory==7.25.1
     - nbstripout
+    - cspdk==0.8.0
+    - sky130
