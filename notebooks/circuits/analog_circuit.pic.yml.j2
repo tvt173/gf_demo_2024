@@ -1,5 +1,7 @@
-settings:
-  metal_width: 0.6
+default_settings:
+  metal_width:
+    value: 0.6
+    description: The width of the metal trace between the routes
 
 instances:
   a2:
@@ -24,4 +26,4 @@ routes:
 
     settings:
       cross_section: xs_metal1
-      width: ${settings.metal_width}
+      width: {{ metal_width }}
