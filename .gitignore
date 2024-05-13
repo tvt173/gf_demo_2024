@@ -163,3 +163,4 @@ cython_debug/
 *.gds
 
 notebooks/first_circuit.pic.yml
+notebooks/dx500_extracted.pic.yml

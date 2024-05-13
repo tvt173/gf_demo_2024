@@ -22,3 +22,6 @@ routes:
     links:
       mmi1,o2: mmi2,o3
       mmi1,o3: mmi2,o2
+ports:
+  o1: mmi1,o1
+  o2: mmi2,o1
