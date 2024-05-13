@@ -1,0 +1,28 @@
+default_settings:
+  dx:
+    value: 100
+    description: The horizontal distance between the two MZI's
+instances:
+  mmi1: 
+    component: mmi1x2_sc
+  mmi2: 
+    component: mmi1x2_sc
+placements:
+  mmi2:
+    port: o2
+    x: mmi1,o3
+    dx: {{ dx }}
+    y: mmi1,o3
+    dy: -50
+    rotation: 180
+routes:
+  b1:
+    routing_strategy: get_bundle_from_steps
+    settings:
+      steps:
+        - dx: 20
+        - dy: 50
+        - dx: 20
+    links:
+      mmi1,o2: mmi2,o3
+      mmi1,o3: mmi2,o2
