@@ -8,7 +8,7 @@ dependencies:
   - jupyterlab
   - pip
   - pip:
-    - gdsfactory==7.25.1
+    - gdsfactory==7.26.1
     - nbstripout
-    - cspdk==0.8.0
-    - sky130
+    - cspdk==0.8.1
+    # - sky130==0.11.0
