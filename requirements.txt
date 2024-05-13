@@ -1,0 +1,4 @@
+gdsfactory==7.26.1
+nbstripout
+cspdk==0.8.2
+sky130==0.11.1
